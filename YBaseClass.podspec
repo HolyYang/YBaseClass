@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   # s.platform     = :ios
   s.platform     = :ios, "7.0"
   s.source       = { :git => "https://github.com/HolyYang/YBaseClass.git", :tag => "0.0.2" }
-  s.source_files  = "YBaseClass/**/*.{h,m}"
+  s.source_files  = "YBaseClass/*.{h,m}"
   # s.exclude_files = "YBaseClass"
   # s.public_header_files = "Classes/**/*.h"
   # s.resource  = "icon.png"
